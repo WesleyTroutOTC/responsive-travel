@@ -4,9 +4,24 @@ html {
 		background-image: url(bg1.jpg);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		width: 100%;
+		background-size: cover;
 }
 
 body {
-	
+		background-color: rgba(255, 255, 255, 0.96);
+		width: 90%;
+		margin: 0 auto;
+}
+
+.footul1, .footul2, .footul3 {
+		
+	float: left;
+	width: 25%;
+	margin-left: 8%;
+	color: white;
+}
+
+footer {
+	background-color: #962914;
+	overflow: auto;
 }
