@@ -1,1 +1,16 @@
 /* Screen Size */
+
+@media screen and (min-width: 576px) {
+
+#nav3 {	
+	display: contents;
+}
+
+.footul2 {
+	display: block;
+}
+
+.footul3 {
+	
+
+}

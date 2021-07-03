@@ -1,27 +1,220 @@
 @charset "utf-8";
 
+/* Background image, no problems */
+
 html {
-		background-image: url(bg1.jpg);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
+	background-image: url(bg1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
-body {
-		background-color: rgba(255, 255, 255, 0.96);
-		width: 90%;
-		margin: 0 auto;
+body,html{
+    margin:0;
+    padding: 0;
+}
+/*============================================================*/
+
+
+
+
+/* Header Working no problems. */
+
+
+
+
+header {
+	background-color: #5e2927;
+	overflow: auto;
+	border-bottom: 10px solid #9e4642;
 }
 
-.footul1, .footul2, .footul3 {
-		
-	float: left;
-	width: 25%;
-	margin-left: 8%;
+.container1 {
+	float:left;
+	width:100%;	
+}
+
+h2 {
+	position:relative;
+	left: 170px;
 	color: white;
+	margin-top:-90px;
+	font-size: 2em;
+	float: left;
+	
 }
+
+.headericon {
+	background-color: #7dbdc9;
+	border: 5px solid;
+	border-color: #3d7580;
+	border-radius: 10% / 50%;
+	padding: 5px;
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	max-width:100px;
+}
+
+nav ul li {
+	float: left;
+	font-family: Georgia-serif, sans-serif;
+	font-size: 1.7em;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	padding-right: 20px;
+}
+
+#nav1 {
+	margin-left: -30px;
+}
+
+.navul {
+	width:100%
+}
+
+
+/*============================================================*/
+
+
+
+
+
+
+/* Article contains only images h1 and paragraph, no problems */
+
+article {
+	width: 90%;
+	background-color: rgba(255, 255, 255, 0.96);
+	margin: 0 auto;
+	font-family: Georgia, san-serif;
+}
+
+article img {
+	width: 95%;
+	padding-left: 2.5%;
+}
+
+#bodyimg1 {
+	margin-top: 10px;
+}
+
+h1 {
+	font-family: Arial Black, sans-serif;
+	text-align: center;
+	font-size: 2em;
+	margin: 0;
+	font-variant: small-caps;
+	color: #303030;
+}
+
+p {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*============================================================*/
+
+
+
+
+
+
+/* Link Stuff, no Issues */
+
+a:link {
+	  color: white;
+	  background-color: transparent;
+	  text-decoration: none;
+	}
+
+a:visited {
+	  color: white;
+	  background-color: transparent;
+	  text-decoration: none;
+	}
+
+a:hover {
+	  color: #962914;
+	  background-color: white;
+	  text-decoration: none;
+	}
+
+a:active {
+	  color: yellow;
+	  background-color: transparent;
+	  text-decoration: none;
+	}
+
+ul {
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+/* Footer */
 
 footer {
-	background-color: #962914;
+	height: 150px;
+	width: 100%;
+	background-color: #5e2927;
 	overflow: auto;
+	font-family: Georgia-serif, sans-serif;
+}
+
+
+.footul1, .footul2, .footul3, .foodul4 {
+	float: left;
+	color: white;
+	display: block;
+	position: relative;
+	padding-right:30px;
+}
+
+
+
+
+
+
+
+
+
+
+.footul1 {
+	margin-left: 25px;
+}
+
+.footul1 li {
+	
+margin-left: -50px;
+	
+}
+
+.footul3 li {
+	float:left;
+}
+
+#twit {
+	margin-left: -40px;
+}
+
+/* ================================================================== */
+
+
+
+
+
+/* Hidden for Mobile */
+
+.footul2, .footul4 {
+	display: none;
+}
+
+#nav3, #nav4 {
+	display: none;
 }
