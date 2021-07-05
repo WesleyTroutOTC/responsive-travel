@@ -1,14 +1,19 @@
 @charset "utf-8";
 
-/* Background image, no problems */
+/* 
+	Name: Wesley Trout
+	Date: July 2021
+	
+	styles.css
+*/
 
+/* Background image, no problems */
 html {
 	background-image: url(bg1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
-
 body,html{
     margin:0;
     padding: 0;
@@ -17,23 +22,17 @@ body,html{
 
 
 
-
-/* Header Working no problems. */
-
-
-
-
+/* Header Working =========== DONE ============== */
 header {
 	background-color: #5e2927;
 	overflow: auto;
 	border-bottom: 10px solid #9e4642;
 }
-
 .container1 {
 	float:left;
 	width:100%;	
+	height: 180px;
 }
-
 h2 {
 	position:relative;
 	left: 170px;
@@ -41,9 +40,8 @@ h2 {
 	margin-top:-90px;
 	font-size: 2em;
 	float: left;
-	
+	font-family: Georgia-serif, sans-serif;
 }
-
 .headericon {
 	background-color: #7dbdc9;
 	border: 5px solid;
@@ -55,7 +53,6 @@ h2 {
 	margin-bottom: 15px;
 	max-width:100px;
 }
-
 nav ul li {
 	float: left;
 	font-family: Georgia-serif, sans-serif;
@@ -64,39 +61,40 @@ nav ul li {
 	margin-bottom: 10px;
 	padding-right: 20px;
 }
-
 #nav1 {
 	margin-left: -30px;
 }
-
 .navul {
-	width:100%
+	margin-left: 20px;
+	margin-top: 120px;
+	position: absolute;
+	width:100%;
+	
 }
-
-
 /*============================================================*/
 
 
 
-
-
-
-/* Article contains only images h1 and paragraph, no problems */
+/* Article ======================DONE======================= */
 
 article {
 	width: 90%;
 	background-color: rgba(255, 255, 255, 0.96);
 	margin: 0 auto;
 	font-family: Georgia, san-serif;
+	overflow:auto;
 }
 
 article img {
 	width: 95%;
 	padding-left: 2.5%;
+	box-shadow:15px 15px 1px -9px rgba(0, 0, 0, .2);
 }
 
+
+
 #bodyimg1 {
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 h1 {
@@ -106,11 +104,17 @@ h1 {
 	margin: 0;
 	font-variant: small-caps;
 	color: #303030;
+	padding-top: 5px;
+	text-decoration: underline;
 }
 
 p {
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+#p4 {
+    padding-bottom: 20px;
 }
 
 /*============================================================*/
@@ -157,8 +161,7 @@ ul {
 
 
 
-/* Footer */
-
+/* Footer ============= DONE =============*/
 footer {
 	height: 150px;
 	width: 100%;
@@ -166,8 +169,6 @@ footer {
 	overflow: auto;
 	font-family: Georgia-serif, sans-serif;
 }
-
-
 .footul1, .footul2, .footul3, .foodul4 {
 	float: left;
 	color: white;
@@ -175,30 +176,17 @@ footer {
 	position: relative;
 	padding-right:30px;
 }
-
-
-
-
-
-
-
-
-
-
 .footul1 {
 	margin-left: 25px;
 }
-
 .footul1 li {
 	
 margin-left: -50px;
 	
 }
-
 .footul3 li {
 	float:left;
 }
-
 #twit {
 	margin-left: -40px;
 }
@@ -209,7 +197,7 @@ margin-left: -50px;
 
 
 
-/* Hidden for Mobile */
+/* Hidden for Mobile/Tablet*/
 
 .footul2, .footul4 {
 	display: none;
